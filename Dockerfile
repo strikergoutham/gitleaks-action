@@ -6,5 +6,5 @@ LABEL "com.github.actions.icon"="shield"
 LABEL "com.github.actions.color"="purple"
 LABEL "repository"="https://github.com/zricethezav/gitleaks-action"
 
-ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ADD entrypoint.sh /entry.sh
+ENTRYPOINT ["/entry.sh"]
